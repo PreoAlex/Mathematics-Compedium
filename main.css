@@ -1,0 +1,63 @@
+h1 {
+
+    text-align: center;
+
+}
+
+.subject-container {
+
+    min-width: 500px;
+    max-width: 800px;
+
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    border: 2px solid #444;
+    padding: 10px;
+
+}
+
+.subject-label {
+
+    font-size: larger;
+    font-weight: bold;
+
+    border: 2px solid #444;
+    padding: 20px;
+    margin: 20px;
+    
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+
+}
+
+.subject-label:hover {
+
+    color: #3e48cc;
+    border-color: #313cd6;
+    cursor: pointer;
+
+}
+
+.subject-label:active {
+
+    opacity: 70%;
+
+}
+
+a {
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e6e6e6;
+}
